@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* navbar section */
+.main_button{
+    background-color: #081158 ;
+    color:#FBB244  ;
+    padding:5px 15px;;;
+   
+    
+}
+.main_button:hover{
+    background-color: white ;
+    color:black;
+    border:1px solid #ECEBF1
+}
+.first_main_heading ,.features small{
+    background-color: #FAEBD9;
+    color:#FBB244 
+}
+.second_main_heading{
+    color:#081158  !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.main_work_button{
+    background-color: #081158  ;
+    color:white ;
+    border:none
+}
+.main_work_button:hover{
+    background-color: white ;
+    border:1px solid #081158;
+    color: #081158 ;
+}
+.main_contact_button{
+    border:1px solid #081158;
+    color: #081158 ;
+    background: none;
+}
+.main_contact_button:hover{
+    background-color: #081158  ;
+    color:white ;
+}
+/* features */
+.features .first_heading{
+    background-color: #FAEBD9;
+    color:#FBB244 
+}
+.features h1{
+    color: #081158;
+    font-family: 'Montserrat', sans-serif;
+}
+.features p{
+    font-size: 14px;;
+}
+.provide img{
+    width:15%;
+    position: relative;
+}
+.provide img::after{
+    content:"helloe";
+
+}
+.provide h4{
+    font-family: 'Montserrat', sans-serif;
+}
+.provide p{
+    font-size:14px;
+}
+/*
+about section
+*/
+.about_section small {
+    background-color: #FAEBD9;
+    color:#FBB244 
+}
+.about_section h1{
+   color: #081158;
+   font-family: 'Montserrat', sans-serif;
+}
+.about_section p,.about_section ul{
+    font-size: 14px;
+}
+.about_button{
+    background-color: #081158;
+    color: white;
+    border:none
+}
+
+
+/* services section*/
+.our_services small{
+    background-color:#FAEBD9;
+    color: #FBB244;
+}
+.our_services h1{
+    color: #081158;
+    font-family: 'Montserrat', sans-serif;
+}
+.text_section h4{
+    font-family: 'Montserrat', sans-serif;
+}
+.text_section p{
+    font-size: 14px;;
+}
+
+/*----testimonials----*/
+.Testimonials{
+    background-color: #F8F9FA;
+    padding:100px 0px;
+
+}
+.Testimonials small{
+    background-color:#FAEBD9;
+    color: #FBB244;
+}
+.Testimonials h1{
+    color:#081158;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.Testimonials p{
+    font-size: 14px;;
+}
+.coursel_slides{
+    padding:50px 0px;
+}
+
+.carousel-indicators li {
+    background-color: black!important;
+    
+}
+
+
+.Testimonials .card:hover {
+    border:1px solid #081158;
+    transition: 0.2s;
+    
+
+
+}
+.Testimonials .card q{
+    font-size:17px;
+    font-weight: 200px;
+}
+.Testimonials .card h6{
+ font-family: 'Montserrat', sans-serif; ;
+ font-weight:100px!important;
+}
+/*footer section*/
+.footer_section{
+    padding:100px 0px;
+}
+.firstColumn{
+
+}
+.firstColumn p{
+   font-size:14px;
+}
+.firstColumn i{
+    color:#081158;
+    cursor: pointer;
+}
+.media_section a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #081158;
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    position: relative;
+   
+}
+.media_section a i{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+    
+}
+.footer_section ul{
+   
+}
+.footer_section ul li{
+    margin-top: 8px;;
+    cursor: pointer;
+    font-size: 14px;;
+}
+.footer_section ul li:hover{
+    color: black;
+}
+.footer_section ul li a{
+    margin-left:10px;
+}
+.copyRightLine p{
+    font-size:14px;
+}
+.copyRightLine p i{
+    color:#DC3545 ;
+   
+}
